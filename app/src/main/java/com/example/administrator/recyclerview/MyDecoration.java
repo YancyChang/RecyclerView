@@ -69,10 +69,9 @@ public class MyDecoration extends RecyclerView.ItemDecoration {
         mDividerHeight = dividerHeight;
         mPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
         mPaint.setColor(dividerColor);
-        mPaint.setStyle(Paint.Style.FILL);
     }
 
-//
+//12312
     //获取分割线尺寸
     @Override
     public void getItemOffsets(Rect outRect, View view, RecyclerView parent, RecyclerView.State state) {
